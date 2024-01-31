@@ -26,6 +26,7 @@ Description : Learning CSS.
 
         
         .inline-demo {
+            
             /*Change the display to see all elements of this type in a line.*/
             margin: 15px;
         }
@@ -55,11 +56,14 @@ Description : Learning CSS.
         /* Add your css for the thrid child here. */
 
         .image-demo {
+            width: 50%;
             /* Modify the .image-demo class to adjust the image's width to 50% of the screen. */
             border: 2px solid blue;
         }
 
         .hover-demo:hover {
+            cursor: grabbing;
+            color: blue;
             /*Create a hover effect for .hover-demo that changes its color to blue and cursor to grabbing.*/
         }
     </style>
@@ -86,7 +90,7 @@ Description : Learning CSS.
 
     <h2>CSS Image Styling with Inline CSS</h2>
     <!-- Add a dotted green border of 3px inline. Which style will win the competition? -->
-    <img class="image-demo" style="" src="images/example.svg" alt="Demo Image">
+    <img class="image-demo" style="border: dotted green" src="images/example.svg" alt="Demo Image">
 
     <h2>CSS Hover Effects</h2>
     <div class="hover-demo"><span>Hover over me! My color will change to blue!</span></div>
